@@ -1,0 +1,18 @@
+package com.company.infrastructure;
+
+public enum NetworkCommands {
+    READY,
+    SEND_PASSWORD,
+    ACCESS_GRANTED,
+    ACCESS_DENIED,
+    SEND_FILE_LIST,
+    RECEIVE_FILES_FROM_CLIENT,
+    SENDING_FINISHED,
+    SEND_FILES_TO_CLIENT,
+    RECEIVING_FINISHED,
+    DELETE_FILE_FROM_SERVER,
+
+    NOT_RECOGNISED,
+    EXIT
+    ;
+}

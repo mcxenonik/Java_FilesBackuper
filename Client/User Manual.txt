@@ -1,0 +1,9 @@
+G³ówne okno aplikacji klienta sk³ada siê z listy plików po stronie klienta i po stronie serwera. Przycisk "Compare" odœwierza listy i wyœwietla akcjê, jaka zostanie podjêta w przypadku naciœniêcia przycisku "Synchronize".
+
+Aby dodaæ katalog do synchronizacji nale¿y u¿yæ przycisku "Add Directory".
+
+Istniej¹ trzy metody synchronizacji:
+
+-Aktualizacja plików na serwerze przeniesie zmiany dokonane na plikach do serwera (Update Server)
+-Aktualizacja plików po stronie klienta (Update Local)
+-Dodanie brakuj¹cych plików po obu stronach. Jeœli zawartosæ plików o tej samej œcie¿ce nie jest taka sama to plik nie zostanie nienaruszony po obu stronach. (Two way).
